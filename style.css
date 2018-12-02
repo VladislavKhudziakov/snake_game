@@ -1,0 +1,52 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	min-height: 916px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #262626;
+}
+
+.field {
+	width: 1200px;
+	display: flex;
+	border: 2px solid #3d3d3e;
+	flex-direction: column;
+}
+
+.line {
+	width: 1200px;
+	display: flex;
+}
+
+.column {
+	background: #232323;
+	border: 1px solid #262626;
+	width: 10px;
+	height: 10px;
+}
+
+.snake {
+	border: 1px solid #262626;
+	background: #fff;
+}
+
+.apple {
+	background: #77ff33;
+}
+
+h1, .currScore {
+	font-size: 30px;
+	color: #8e8e8e;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+
